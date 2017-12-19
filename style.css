@@ -1,0 +1,178 @@
+*,
+*:after,
+*:before {
+box-sizing: border-box;
+margin: 0;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 60%;
+}
+
+.section-two {
+  height: 100vh;
+  width:  40%;
+}
+
+article {
+  height: 33.33%;
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.article-one {
+  background: #0d233a;
+  width: 66.63%;
+  color: #FFFFFF;
+}
+
+h2 {
+  align-self: end;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#article-one-text {
+  align-self: end;
+  margin-top: -8%;
+  margin-left: 10%;
+}
+
+button {
+  background: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 15px;
+  align-self: end;
+  margin-left: 11%;
+  margin-bottom: -3%;
+  margin-top: -12%;
+}
+
+.staff {
+  margin-left: 5%;
+}
+
+
+.icon {
+  height: 40%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+p {
+  color: #FFFFFF;
+  align-self: end;
+  margin: -10% auto;
+}
+
+.article-two,
+.article-four {
+  background: #212121;
+}
+
+.article-three,
+.article-five,
+.article-seven {
+  background: #757575;
+}
+
+.article-six,
+.article-eight {
+  background: #0d233a;
+}
+
+.article-nine {
+  height: 100%;
+  width: 100%
+}
+
+#star {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+/*div {
+  height: 5%;
+  width: 5%;
+  background-color: #73756F;
+  position: absolute;
+  left: 94%;
+  bottom: 94%;
+}
+
+.div-one {
+
+}
+
+.div-two {
+
+}
+
+.div-three {
+
+}*/
+
+.left-arrow {
+  height: 5%;
+  width: 5%;
+  position: absolute;
+  left: 61%;
+
+}
+
+.right-arrow {
+  height: 5%;
+  width: 5%;
+  position: absolute;
+  right: 1%;
+}
+
+@media screen and (max-width: 800px) {
+
+  main {
+    display: inline-grid;
+  }
+
+  .section-one {
+    height: 85vh;
+    width: 100%;
+  }
+  
+  .section-two {
+    width:  100%;
+  }
+  .left-arrow {
+    left:  1%;
+  }
+  .left-arrow,
+  .right-arrow {
+    right: 1%;
+    height: 10%;
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  button {
+    padding: 15px 24px;
+  }
+
+  #article-one-text {
+    margin-top: -13%;
+  }
+
+
+}
